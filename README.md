@@ -26,6 +26,9 @@
 ## Run NodeJS Project
     run command 'node server.js' from backend folder
 
+## Run Build And Run NodeJS Project
+    run custom command 'npm start'
+
 ## Packages
     Express = npm install express
     Types do Express = npm install @types/express
