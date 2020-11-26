@@ -5,6 +5,6 @@ import database from "./database";
 database.sequelize.sync();
 console.log(`The database ${database.databaseName} is running at server ${database.server} with port ${database.port}`);
 
-const port = 3000;
+const port = 3001;
 app.listen(port);
 console.log(`Server running at ${port}`);

@@ -37,3 +37,5 @@
     Sequelize = npm install sequelize
     Types do sequelize = npm install @types/validator
     MySql Library = npm install mysql2
+    Cors = npm install cors --save
+    Types do cors = npm install @types/cors --save-dev
