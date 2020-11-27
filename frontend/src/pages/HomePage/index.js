@@ -10,6 +10,7 @@ import {
   Spinner,
 } from 'react-bootstrap'
 import ShortennerService from '../../services/shortenerService'
+import vars from '../../configs/vars'
 
 export class HomePage extends Component {
   constructor(props) {
@@ -85,7 +86,7 @@ export class HomePage extends Component {
                   <InputGroup className="mb-3">
                     <FormControl
                       autoFocus={true}
-                      defaultValue={`https://pitu.tk/${code}`}
+                      defaultValue={vars.APP_HOST + code}
                       ref={(input) => (this.inputUrl = input)}
                     />
                     <InputGroup.Append>
@@ -98,8 +99,7 @@ export class HomePage extends Component {
                     </InputGroup.Append>
                   </InputGroup>
                   <p>
-                    Para acompanhar as estatísticas, acesso https://pitu.tk/
-                    {code}
+                    Para acompanhar as estatísticas, acesse {vars.APP_HOST + code}/stats
                   </p>
                 </>
               )

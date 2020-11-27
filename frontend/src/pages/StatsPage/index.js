@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { StatsContainer, StatsRow, StatsBox, StatsBoxTittle } from './styles'
 import { parseISO, formatRelative } from 'date-fns'
 import ptBr from 'date-fns/locale/pt-BR'
+import vars from '../../configs/vars'
 
 export class StatsPage extends Component {
   constructor(props) {
@@ -66,7 +67,7 @@ export class StatsPage extends Component {
         ) : (
           <StatsContainer className="text-center">
             <p>
-              <b>https://pitu.tk/{shortenedUrl.code}</b>
+              <b>{vars.APP_HOST + shortenedUrl.code}</b>
             </p>
             <p>
               Redireciona para: <br />

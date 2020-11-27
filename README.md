@@ -6,6 +6,10 @@
     *NodeJs LTS
     *MySQL Community Server
 # Front-End
+
+## build project for prod
+    npm run build
+
 ## Tecnology
     ReactJs
 ## Packages
