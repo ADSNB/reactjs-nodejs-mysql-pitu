@@ -8,6 +8,16 @@
 # Front-End
 ## Tecnology
     ReactJs
+## Packages
+    React Project = 
+    React Router Dom = npm install react-router-dom
+    Axios for http = npm install axios
+    React Bootstrap = npm install react-bootstrap bootstrap
+    SASS for node support = npm install node-sass@4.14.1
+    Styled components = npm install styled-components
+    Font Awesome = npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core
+    date fns manipulação data = npm install date-fns
+
 # Back-End
     Projeto com função de encurtar URL's.
 
