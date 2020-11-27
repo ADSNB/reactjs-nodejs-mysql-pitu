@@ -99,7 +99,7 @@ export class HomePage extends Component {
                     </InputGroup.Append>
                   </InputGroup>
                   <p>
-                    Para acompanhar as estatísticas, acesse {vars.APP_HOST + code}/stats
+                    Para acompanhar as estatísticas, clique <a href={vars.APP_HOST + code + "/stats"}>aqui</a>.
                   </p>
                 </>
               )

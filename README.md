@@ -53,3 +53,21 @@
     MySql Library = npm install mysql2
     Cors = npm install cors --save
     Types do cors = npm install @types/cors --save-dev
+
+
+
+# Deploy
+    Política
+
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "AllowPublicReadAccess",
+                "Effect": "Allow",
+                "Principal" : "*",
+                "Action": "s3:GetObject",
+                "Resource": "arn:aws:s3:::www.seubucket/*"
+            }
+        ]
+    }
